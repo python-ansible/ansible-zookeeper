@@ -3,7 +3,7 @@
 # Test Playbook
 #
 
-- hosts: all
+- hosts: zookeepers
   sudo: yes
   roles:
     - role: ../../
